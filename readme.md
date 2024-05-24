@@ -48,5 +48,20 @@ contibuted by Isa Citra Buana
 
 ---------------------------------------------------
 ### 3
-Sebenarnya tidak banyak yang berubah, paling hanya perluas penggunaan message queue. Selain itu, sekarang
-client tidak lagi boleh menembak API dari microservice secara langsung melainkan melalui microservice API Gateway.
+Identifikasi:
+Penggunaan message queue diperluas untuk mengatur komunikasi antar microservice.
+Klien tidak lagi diizinkan untuk menembak API dari microservice secara langsung, tetapi harus melalui microservice API Gateway.
+
+Konsensus:
+Semua anggota setuju bahwa perluasan penggunaan message queue dapat meningkatkan efisiensi dan ketahanan sistem.
+Mengarahkan semua komunikasi klien melalui microservice API Gateway dianggap sebagai langkah yang penting untuk meningkatkan keamanan dan mengurangi potensi kesalahan.
+
+Mitigasi:
+Memastikan bahwa perluasan penggunaan message queue dilakukan dengan benar dan sesuai dengan kebutuhan sistem, termasuk pemilihan teknologi yang tepat dan pemantauan kinerja secara teratur.
+Menerapkan kontrol akses yang ketat di microservice API Gateway untuk memastikan bahwa hanya permintaan yang sah dan diotorisasi yang diteruskan ke microservice yang sesuai.
+Melakukan pelatihan kepada pengembang dan administrator sistem tentang penggunaan yang benar dari message queue dan microservice API Gateway, serta potensi masalah yang mungkin timbul.
+
+Contributed by Isa Citra Buana
+
+
+
