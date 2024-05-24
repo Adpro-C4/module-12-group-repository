@@ -45,3 +45,8 @@ Menerapkan auto-scaling untuk menyesuaikan kapasitas server berdasarkan beban tr
 ![](docs/container.png)
 ![](docs/deployment.png)
 contibuted by Isa Citra Buana
+
+---------------------------------------------------
+### 3
+Sebenarnya tidak banyak yang berubah, paling hanya perluas penggunaan message queue. Selain itu, sekarang
+client tidak lagi boleh menembak API dari microservice secara langsung melainkan melalui microservice API Gateway.
