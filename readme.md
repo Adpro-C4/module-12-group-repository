@@ -63,5 +63,10 @@ Melakukan pelatihan kepada pengembang dan administrator sistem tentang penggunaa
 
 Contributed by Isa Citra Buana
 
+------------------------------------
 
+### 4
+![](docs/component-diagram-isa.png)
+![](docs/code-diagram-isa.png)
 
+Contributed by Isa Citra Buana
